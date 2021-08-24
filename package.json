@@ -1,0 +1,27 @@
+{
+  "name": "redux-react-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "bin": {
+    "redux-init": "copy-folder.js",
+    "create-reducer": "create-reducer.js"
+  },
+  "scripts": {
+    "release": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/framemuse/redux-react-ts"
+  },
+  "author": "framemuse",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "react": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0"
+  }
+}
